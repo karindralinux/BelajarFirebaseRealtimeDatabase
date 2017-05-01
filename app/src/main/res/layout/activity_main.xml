@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.firodev.firebasedatabase.MainActivity">
+
+    <ImageButton
+        android:id="@+id/buttonMinecraft"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:src="@drawable/minecraft"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minecraft"
+        android:layout_below="@+id/buttonMinecraft"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/buttonDota"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dota"
+        android:layout_alignBottom="@+id/buttonMinecraft"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dota"
+        android:layout_below="@+id/buttonDota"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_marginRight="68dp"
+        android:layout_marginEnd="68dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="2dp"/>
+
+    <ImageButton
+        android:id="@+id/buttonAndroid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAndroid"
+        android:text="Ngoding Android"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/textView_hobiApa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobi Saya"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="58dp" />
+
+
+    <TextView
+        android:id="@+id/textView_hobiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView_hobiApa"
+        android:text="Ngoding Android"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
+
